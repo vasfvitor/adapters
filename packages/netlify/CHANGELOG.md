@@ -1,5 +1,13 @@
 # @astrojs/netlify
 
+## 3.0.5
+
+### Patch Changes
+
+- [#80](https://github.com/withastro/adapters/pull/80) [`1efc2b8`](https://github.com/withastro/adapters/commit/1efc2b8db0e6a0e29e175ee2e73a413ea69557d8) Thanks [@ematipico](https://github.com/ematipico)! - Fixes an issue where the `@astrojs/netlify/static` module wasn't available via `package.json#export` map
+
+- [#71](https://github.com/withastro/adapters/pull/71) [`c032246`](https://github.com/withastro/adapters/commit/c032246349671b5380620516280193aa537cd19e) Thanks [@alexanderniebuhr](https://github.com/alexanderniebuhr)! - Updates `peerDependency` of `astro` to be less strict
+
 ## 3.0.4
 
 ### Patch Changes

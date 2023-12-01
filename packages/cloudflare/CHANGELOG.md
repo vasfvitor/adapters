@@ -1,5 +1,17 @@
 # @astrojs/cloudflare
 
+## 8.0.0
+
+### Major Changes
+
+- [#61](https://github.com/withastro/adapters/pull/61) [`6f10535`](https://github.com/withastro/adapters/commit/6f1053547066bade1684ae41aeaf68365410c0d8) Thanks [@alexanderniebuhr](https://github.com/alexanderniebuhr)! - Changes the way that bindings are configured for the local runtime using `astro dev`. This change is developed in cooperation with Cloudflare and aligns Astro more closely to the behavior of Wrangler.
+
+  :warning: This is a breaking change for anyone deploying to Cloudflare Pages. You need to update your astro config file to set new the bindings. Follow the updated docs for [configuring `@astrojs/cloudflare`](https://docs.astro.build/en/guides/integrations-guide/cloudflare/#cloudflare-pages)
+
+### Patch Changes
+
+- [#71](https://github.com/withastro/adapters/pull/71) [`c032246`](https://github.com/withastro/adapters/commit/c032246349671b5380620516280193aa537cd19e) Thanks [@alexanderniebuhr](https://github.com/alexanderniebuhr)! - Updates `peerDependency` of `astro` to be less strict
+
 ## 7.7.1
 
 ### Patch Changes
