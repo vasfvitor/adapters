@@ -12,7 +12,7 @@ importers:
         specifier: ^0.3.1
         version: 0.3.1(prettier-plugin-astro@0.12.1)(prettier@3.0.3)(typescript@5.2.2)
       '@biomejs/biome':
-        specifier: ^1.4.1
+        specifier: 1.4.1
         version: 1.4.1
       '@changesets/changelog-github':
         specifier: ^0.4.8
